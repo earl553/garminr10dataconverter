@@ -12,4 +12,5 @@ This script is based on Python 3.8 and requires Pandas. Please refer to the offi
 1) Go to www.garmin.com -> log into your account -> go to "Account" -> click on "Export Your Data" -> click on "REQUEST DATA EXPORT". The web page responds with a green highlighted "Your request has successfully been submitted.". 
 2) Wait for an email to arrive at your email address registered with Garmin (delivery of the mail might vary from a few minutes to - according to garmin - up to 30 days).
 3) Follow the instructions from the email to download your compiled data history from Garmin.
-4) tbd
+4) In the downloaded package go to the GOLF package where the *.json files are located, drop the python script there, switch over to the console and execute the script without any additional parameters. Result is a new *.csv file containing all data from your Golf simulator session (including driving range).
+5) Have fun analyzing your data. 
